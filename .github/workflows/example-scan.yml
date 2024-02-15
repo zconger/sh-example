@@ -1,8 +1,9 @@
 name: Example HawkScan Cron
 
 on:
+  push:
   schedule:
-    - cron: '5 * * * *'
+    - cron: '*/15 * * * *'
 
 jobs:
   hawkscan:
