@@ -2,7 +2,7 @@ name: Example HawkScan Cron
 
 on:
   schedule:
-    - cron: 0 * * * *
+    - cron: '5 * * * *'
 
 jobs:
   hawkscan:
